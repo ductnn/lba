@@ -21,7 +21,7 @@ import "github.com/ductnn/lba"
 
 ## Example
 
-- RoundRobin:
+- **Round Robin**:
 
 ```go
 package main
@@ -52,7 +52,7 @@ func main() {
 }
 ```
 
-- LeastConnections:
+- **Least Connections**:
 
 ```go
 lc, err := New([]*url.URL{
@@ -70,7 +70,7 @@ done1() // Reduce connection of src1
 src3, done3 := lc.Next() // {Host: "192.168.1.10"}
 ```
 
-- IPHash:
+- **IP Hash**:
 
 ```go
 ip, _ := iphash.New([]*url.URL{
