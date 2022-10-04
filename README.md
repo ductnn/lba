@@ -1,5 +1,7 @@
 # LBA
 
+[![Run Tests](https://github.com/ductnn/lba/actions/workflows/test.yml/badge.svg)](https://github.com/ductnn/lba/actions/workflows/test.yml)
+
 **lba** is a [go](https://go.dev/) implementation of the balancing algorithm.
 - Round Robin
 - IP Hash
