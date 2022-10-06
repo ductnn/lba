@@ -1,8 +1,9 @@
 # LBA
 
 [![Run Tests](https://github.com/ductnn/lba/actions/workflows/test.yml/badge.svg)](https://github.com/ductnn/lba/actions/workflows/test.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ductnn/lba)](https://goreportcard.com/report/github.com/ductnn/lba)
 
-**lba**(LoadBalancer Algorithm) is a [go](https://go.dev/) implementation of the balancing algorithm.
+**lba** (LoadBalancer Algorithm) is a [go](https://go.dev/) implementation of the balancing algorithm.
 - Round Robin
 - IP Hash
 - Least Connections
